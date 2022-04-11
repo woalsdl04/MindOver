@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="GSYSTEM">
+      <UniqueIdentifier>{f690065b-9c38-4d3d-a6a8-134dedbad294}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script">
+      <UniqueIdentifier>{1db5cf78-09c1-4474-8c80-62fa008844e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Scenes">
+      <UniqueIdentifier>{a0de3b58-1e12-4cfa-a608-0c600e54cefa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Enemy">
+      <UniqueIdentifier>{884fa8d6-9c64-474b-bcd5-b7f865c6b183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Manager">
+      <UniqueIdentifier>{0d6e4816-c69b-47bf-b7f0-4d1fb0614687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\UI">
+      <UniqueIdentifier>{bef3260d-f699-4a19-8fb4-8bcd80ee8da3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Eff">
+      <UniqueIdentifier>{406a8dfd-f8b9-484d-966c-b0938fd3720d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Warning">
+      <UniqueIdentifier>{21d9fbef-ad24-4771-a5f1-428f68934673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\UI\Info">
+      <UniqueIdentifier>{58e45704-3732-431e-91a8-cdc980b3af3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Enemy\Stage1">
+      <UniqueIdentifier>{9b5d18bf-ce55-42b4-bf11-95ace130d2bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Enemy\Stage2">
+      <UniqueIdentifier>{c4b54951-42c2-4532-a4f4-71c96534b778}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Enemy\Stage3">
+      <UniqueIdentifier>{40631b38-6753-4dab-94ff-1ea3148803c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Bullet">
+      <UniqueIdentifier>{265e9deb-aa2f-4074-a0d8-6825ec99d473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Item">
+      <UniqueIdentifier>{c0e09f61-b07a-4157-b235-69a980af3861}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <ClInclude Include="DXUT\Core\DXUT.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTenum.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTenum.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClInclude Include="DXUT\Optional\DXUTcamera.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTgui.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTres.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmesh.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Optional\DXUTcamera.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTgui.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTres.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmesh.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MindOver.cpp" />
+    <ClCompile Include="DXUT\Optional\SDKsound.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKwavefile.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="cGameManager.cpp" />
+    <ClCompile Include="cIngame.cpp">
+      <Filter>Script\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="cTitle.cpp">
+      <Filter>Script\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="cPlayer.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="cBg.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="cMaskBg.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="cIngame_Ui.cpp">
+      <Filter>Script\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GSYSTEM\GScene_Colision.cpp">
+      <Filter>GSYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GSYSTEM\GScene_Manager.cpp">
+      <Filter>GSYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GSYSTEM\GScript.cpp">
+      <Filter>GSYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GSYSTEM\GSystem.cpp">
+      <Filter>GSYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GSYSTEM\GSystem_Update.cpp">
+      <Filter>GSYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GSYSTEM\GWindow.cpp">
+      <Filter>GSYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GSYSTEM\GXML.cpp">
+      <Filter>GSYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GSYSTEM\Line_Component.cpp">
+      <Filter>GSYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GSYSTEM\MattScreen_Component.cpp">
+      <Filter>GSYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GSYSTEM\MeMMap_Component.cpp">
+      <Filter>GSYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GSYSTEM\Music_Component.cpp">
+      <Filter>GSYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GSYSTEM\Physics_Component.cpp">
+      <Filter>GSYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GSYSTEM\QCOMP.cpp">
+      <Filter>GSYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GSYSTEM\SoundCLIP_Component.cpp">
+      <Filter>GSYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GSYSTEM\SpriteRenderer_Component.cpp">
+      <Filter>GSYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GSYSTEM\TRS_Component.cpp">
+      <Filter>GSYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GSYSTEM\TRS_Core.cpp">
+      <Filter>GSYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GSYSTEM\BaseComponent.cpp">
+      <Filter>GSYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GSYSTEM\Box_Component.cpp">
+      <Filter>GSYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GSYSTEM\Circle_Component.cpp">
+      <Filter>GSYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GSYSTEM\Collision_Component.cpp">
+      <Filter>GSYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GSYSTEM\Color_Component.cpp">
+      <Filter>GSYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GSYSTEM\FrameAni_Component.cpp">
+      <Filter>GSYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GSYSTEM\G_Component.cpp">
+      <Filter>GSYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GSYSTEM\GameObject.cpp">
+      <Filter>GSYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GSYSTEM\GameObject_Ext.cpp">
+      <Filter>GSYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GSYSTEM\GBitmap_Font.cpp">
+      <Filter>GSYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GSYSTEM\GFILE.cpp">
+      <Filter>GSYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GSYSTEM\GFont.cpp">
+      <Filter>GSYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GSYSTEM\GFunc.cpp">
+      <Filter>GSYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GSYSTEM\GPacket.cpp">
+      <Filter>GSYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GSYSTEM\GParticle.cpp">
+      <Filter>GSYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GSYSTEM\GParticle_Manager.cpp">
+      <Filter>GSYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GSYSTEM\GParticle_Script.cpp">
+      <Filter>GSYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GSYSTEM\GPiece_Component.cpp">
+      <Filter>GSYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GSYSTEM\GResource.cpp">
+      <Filter>GSYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GSYSTEM\GScene.cpp">
+      <Filter>GSYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GSYSTEM\GScene_Camera.cpp">
+      <Filter>GSYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="cPlayer_Life.cpp">
+      <Filter>Script\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="cIngameManager.cpp">
+      <Filter>Script\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cPlayer_Die_Eff.cpp">
+      <Filter>Script\Eff</Filter>
+    </ClCompile>
+    <ClCompile Include="cGame_Start_Ui.cpp">
+      <Filter>Script\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="cWarning_Back.cpp">
+      <Filter>Script\Warning</Filter>
+    </ClCompile>
+    <ClCompile Include="Warning_Text.cpp">
+      <Filter>Script\Warning</Filter>
+    </ClCompile>
+    <ClCompile Include="cGameOver_Ui.cpp">
+      <Filter>Script\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="cGameClear.cpp">
+      <Filter>Script\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="cGameClear_info.cpp">
+      <Filter>Script\UI\Info</Filter>
+    </ClCompile>
+    <ClCompile Include="Score_Number.cpp">
+      <Filter>Script\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="cStage1_Boss.cpp">
+      <Filter>Script\Enemy\Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="cStage1_Enemy.cpp">
+      <Filter>Script\Enemy\Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemy_BaseBullet.cpp">
+      <Filter>Script\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemy_Die_Eff.cpp">
+      <Filter>Script\Eff</Filter>
+    </ClCompile>
+    <ClCompile Include="cStage1_Enemy_Dog.cpp">
+      <Filter>Script\Enemy\Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="cHp_Item.cpp">
+      <Filter>Script\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="cSpeedUp_Item.cpp">
+      <Filter>Script\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="cPlayer_Heal_Eff.cpp">
+      <Filter>Script\Eff</Filter>
+    </ClCompile>
+    <ClCompile Include="cStage2_Boss.cpp">
+      <Filter>Script\Enemy\Stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemy_Rocket.cpp">
+      <Filter>Script\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemy_Gas.cpp">
+      <Filter>Script\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="cStage2_Enemy_Poison.cpp">
+      <Filter>Script\Enemy\Stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="cBoss12_Die_Eff.cpp">
+      <Filter>Script\Eff</Filter>
+    </ClCompile>
+    <ClCompile Include="cStage3_Boss.cpp">
+      <Filter>Script\Enemy\Stage3</Filter>
+    </ClCompile>
+    <ClCompile Include="cBoss3_Die_Eff.cpp">
+      <Filter>Script\Eff</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="MindOver.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ClInclude Include="cGameManager.h" />
+    <ClInclude Include="define.h" />
+    <ClInclude Include="cIngame.h">
+      <Filter>Script\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="cTitle.h">
+      <Filter>Script\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="cPlayer.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="cBg.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="cMaskBg.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="cIngame_Ui.h">
+      <Filter>Script\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GSYSTEM\GScene_Manager.h">
+      <Filter>GSYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GSYSTEM\GScript.h">
+      <Filter>GSYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GSYSTEM\GSystem.h">
+      <Filter>GSYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GSYSTEM\GSystem_Define.h">
+      <Filter>GSYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GSYSTEM\GWindow.h">
+      <Filter>GSYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GSYSTEM\GXML.h">
+      <Filter>GSYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GSYSTEM\Line_Component.h">
+      <Filter>GSYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GSYSTEM\MattScreen_Component.h">
+      <Filter>GSYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GSYSTEM\MeMMap_Component.h">
+      <Filter>GSYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GSYSTEM\Music_Component.h">
+      <Filter>GSYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GSYSTEM\Physics_Component.h">
+      <Filter>GSYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GSYSTEM\QCOMP.h">
+      <Filter>GSYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GSYSTEM\SoundCLIP_Component.h">
+      <Filter>GSYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GSYSTEM\SpriteRenderer_Component.h">
+      <Filter>GSYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GSYSTEM\TRS_Component.h">
+      <Filter>GSYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GSYSTEM\TRS_Core.h">
+      <Filter>GSYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GSYSTEM\BaseComponent.h">
+      <Filter>GSYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GSYSTEM\Box_Component.h">
+      <Filter>GSYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GSYSTEM\Circle_Component.h">
+      <Filter>GSYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GSYSTEM\Collision_Component.h">
+      <Filter>GSYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GSYSTEM\Color_Component.h">
+      <Filter>GSYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GSYSTEM\FrameAni_Component.h">
+      <Filter>GSYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GSYSTEM\G_Component.h">
+      <Filter>GSYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GSYSTEM\GameObject.h">
+      <Filter>GSYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GSYSTEM\GBitmap_Font.h">
+      <Filter>GSYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GSYSTEM\GFILE.h">
+      <Filter>GSYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GSYSTEM\GFont.h">
+      <Filter>GSYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GSYSTEM\GFunc.h">
+      <Filter>GSYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GSYSTEM\GPacket.h">
+      <Filter>GSYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GSYSTEM\GParticle.h">
+      <Filter>GSYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GSYSTEM\GParticle_Manager.h">
+      <Filter>GSYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GSYSTEM\GParticle_Script.h">
+      <Filter>GSYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GSYSTEM\GPiece_Component.h">
+      <Filter>GSYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GSYSTEM\GResource.h">
+      <Filter>GSYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GSYSTEM\GScene.h">
+      <Filter>GSYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="cPlayer_Life.h">
+      <Filter>Script\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="cIngameManager.h">
+      <Filter>Script\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cPlayer_Die_Eff.h">
+      <Filter>Script\Eff</Filter>
+    </ClInclude>
+    <ClInclude Include="cGame_Start_Ui.h">
+      <Filter>Script\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="cWarning_Back.h">
+      <Filter>Script\Warning</Filter>
+    </ClInclude>
+    <ClInclude Include="Warning_Text.h">
+      <Filter>Script\Warning</Filter>
+    </ClInclude>
+    <ClInclude Include="cGameOver_Ui.h">
+      <Filter>Script\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="cGameClear.h">
+      <Filter>Script\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="cGameClear_info.h">
+      <Filter>Script\UI\Info</Filter>
+    </ClInclude>
+    <ClInclude Include="Score_Number.h">
+      <Filter>Script\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="cStage1_Boss.h">
+      <Filter>Script\Enemy\Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="cStage1_Enemy.h">
+      <Filter>Script\Enemy\Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemy_BaseBullet.h">
+      <Filter>Script\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemy_Die_Eff.h">
+      <Filter>Script\Eff</Filter>
+    </ClInclude>
+    <ClInclude Include="cStage1_Enemy_Dog.h">
+      <Filter>Script\Enemy\Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="cHp_Item.h">
+      <Filter>Script\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="cSpeedUp_Item.h">
+      <Filter>Script\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="cPlayer_Heal_Eff.h">
+      <Filter>Script\Eff</Filter>
+    </ClInclude>
+    <ClInclude Include="cStage2_Boss.h">
+      <Filter>Script\Enemy\Stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemy_Rocket.h">
+      <Filter>Script\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemy_Gas.h">
+      <Filter>Script\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="cStage2_Enemy_Poison.h">
+      <Filter>Script\Enemy\Stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="cBoss12_Die_Eff.h">
+      <Filter>Script\Eff</Filter>
+    </ClInclude>
+    <ClInclude Include="cStage3_Boss.h">
+      <Filter>Script\Enemy\Stage3</Filter>
+    </ClInclude>
+    <ClInclude Include="cBoss3_Die_Eff.h">
+      <Filter>Script\Eff</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

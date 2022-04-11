@@ -1,0 +1,341 @@
+﻿  DXUT.cpp
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(12,1): warning C4005: 'DXGI_STATUS_OCCLUDED': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(55840): message : 'DXGI_STATUS_OCCLUDED'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(13,1): warning C4005: 'DXGI_STATUS_CLIPPED': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(55849): message : 'DXGI_STATUS_CLIPPED'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(14,1): warning C4005: 'DXGI_STATUS_NO_REDIRECTION': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(55858): message : 'DXGI_STATUS_NO_REDIRECTION'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(15,1): warning C4005: 'DXGI_STATUS_NO_DESKTOP_ACCESS': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(55867): message : 'DXGI_STATUS_NO_DESKTOP_ACCESS'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(16,1): warning C4005: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(55876): message : 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(17,1): warning C4005: 'DXGI_STATUS_MODE_CHANGED': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(55885): message : 'DXGI_STATUS_MODE_CHANGED'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(18,1): warning C4005: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(55894): message : 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(21,1): warning C4005: 'DXGI_ERROR_INVALID_CALL': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(55909): message : 'DXGI_ERROR_INVALID_CALL'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(22,1): warning C4005: 'DXGI_ERROR_NOT_FOUND': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(55918): message : 'DXGI_ERROR_NOT_FOUND'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(23,1): warning C4005: 'DXGI_ERROR_MORE_DATA': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(55927): message : 'DXGI_ERROR_MORE_DATA'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(24,1): warning C4005: 'DXGI_ERROR_UNSUPPORTED': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(55936): message : 'DXGI_ERROR_UNSUPPORTED'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(25,1): warning C4005: 'DXGI_ERROR_DEVICE_REMOVED': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(55945): message : 'DXGI_ERROR_DEVICE_REMOVED'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(26,1): warning C4005: 'DXGI_ERROR_DEVICE_HUNG': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(55954): message : 'DXGI_ERROR_DEVICE_HUNG'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(27,1): warning C4005: 'DXGI_ERROR_DEVICE_RESET': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(55964): message : 'DXGI_ERROR_DEVICE_RESET'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(28,1): warning C4005: 'DXGI_ERROR_WAS_STILL_DRAWING': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(55973): message : 'DXGI_ERROR_WAS_STILL_DRAWING'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(29,1): warning C4005: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(55983): message : 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(30,1): warning C4005: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(55992): message : 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(31,1): warning C4005: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(56002): message : 'DXGI_ERROR_DRIVER_INTERNAL_ERROR'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(32,1): warning C4005: 'DXGI_ERROR_NONEXCLUSIVE': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(56011): message : 'DXGI_ERROR_NONEXCLUSIVE'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(33,1): warning C4005: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(56020): message : 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(34,1): warning C4005: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(56030): message : 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(35,1): warning C4005: 'DXGI_ERROR_REMOTE_OUTOFMEMORY': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(56039): message : 'DXGI_ERROR_REMOTE_OUTOFMEMORY'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3d10.h(608,1): warning C4005: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(56279): message : 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'의 이전 정의를 참조하십시오.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3d10.h(609,1): warning C4005: 'D3D10_ERROR_FILE_NOT_FOUND': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(56288): message : 'D3D10_ERROR_FILE_NOT_FOUND'의 이전 정의를 참조하십시오.
+C:\JCODE\MindOver\DXUT\Core\DXUT.cpp(696,131): warning C4838: 'UINT'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\JCODE\MindOver\DXUT\Core\DXUT.cpp(696,187): warning C4838: 'UINT'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\JCODE\MindOver\DXUT\Core\DXUT.cpp(697,135): warning C4838: 'UINT'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\JCODE\MindOver\DXUT\Core\DXUT.cpp(697,195): warning C4838: 'UINT'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\JCODE\MindOver\DXUT\Core\DXUT.cpp(4961,13): warning C4996: 'GetVersionExW': deprecated로 선언되었습니다.
+  cGameClear.cpp
+C:\JCODE\MindOver\cGameClear.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'GScript.h': No such file or directory
+  cGameClear_info.cpp
+C:\JCODE\MindOver\cGameClear_info.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'GScript.h': No such file or directory
+  cGameOver_Ui.cpp
+C:\JCODE\MindOver\cGameOver_Ui.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'GScript.h': No such file or directory
+  cEnemy_BaseBullet.cpp
+C:\JCODE\MindOver\cEnemy_BaseBullet.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'GScript.h': No such file or directory
+  Score_Number.cpp
+C:\JCODE\MindOver\Score_Number.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'GScript.h': No such file or directory
+  Warning_Text.cpp
+C:\JCODE\MindOver\Warning_Text.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'GScript.h': No such file or directory
+  BaseComponent.cpp
+  Box_Component.cpp
+C:\GSYSTEM\BaseComponent.h(51,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\Collision_Component.h(41): message : 컴파일되는 함수 템플릿 인스턴스화 'void BaseComponent::Get_ClassName<Collision_Component>(WCHAR *)'에 대한 참조를 확인하세요.
+C:\GSYSTEM\BaseComponent.h(52,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Circle_Component.cpp
+C:\GSYSTEM\BaseComponent.h(51,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\Circle_Component.h(37): message : 컴파일되는 함수 템플릿 인스턴스화 'void BaseComponent::Get_ClassName<Circle_Component>(WCHAR *)'에 대한 참조를 확인하세요.
+C:\GSYSTEM\BaseComponent.h(52,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Collision_Component.cpp
+C:\GSYSTEM\BaseComponent.h(51,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\Collision_Component.h(41): message : 컴파일되는 함수 템플릿 인스턴스화 'void BaseComponent::Get_ClassName<Collision_Component>(WCHAR *)'에 대한 참조를 확인하세요.
+C:\GSYSTEM\BaseComponent.h(52,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\GameObject.h(125,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\GameObject.h(142): message : 컴파일되는 함수 템플릿 인스턴스화 'void GameObject::Get_ClassName<T>(WCHAR *)'에 대한 참조를 확인하세요.
+          with
+          [
+              T=SpriteRenderer_Component
+          ]
+C:\GSYSTEM\Collision_Component.cpp(16): message : 컴파일되는 함수 템플릿 인스턴스화 'T *GameObject::Get_Component<SpriteRenderer_Component>(void)'에 대한 참조를 확인하세요.
+          with
+          [
+              T=SpriteRenderer_Component
+          ]
+C:\GSYSTEM\GameObject.h(126,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Color_Component.cpp
+C:\GSYSTEM\BaseComponent.h(51,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\Color_Component.h(56): message : 컴파일되는 함수 템플릿 인스턴스화 'void BaseComponent::Get_ClassName<Color_Component>(WCHAR *)'에 대한 참조를 확인하세요.
+C:\GSYSTEM\BaseComponent.h(52,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\GameObject.h(125,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\GameObject.h(142): message : 컴파일되는 함수 템플릿 인스턴스화 'void GameObject::Get_ClassName<T>(WCHAR *)'에 대한 참조를 확인하세요.
+          with
+          [
+              T=SpriteRenderer_Component
+          ]
+C:\GSYSTEM\Color_Component.cpp(37): message : 컴파일되는 함수 템플릿 인스턴스화 'T *GameObject::Get_Component<SpriteRenderer_Component>(void)'에 대한 참조를 확인하세요.
+          with
+          [
+              T=SpriteRenderer_Component
+          ]
+C:\GSYSTEM\GameObject.h(126,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  FrameAni_Component.cpp
+C:\GSYSTEM\BaseComponent.h(51,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\MeMMap_Component.h(53): message : 컴파일되는 함수 템플릿 인스턴스화 'void BaseComponent::Get_ClassName<MeMMap_Component>(WCHAR *)'에 대한 참조를 확인하세요.
+C:\GSYSTEM\BaseComponent.h(52,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\GameObject.h(125,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\GameObject.h(142): message : 컴파일되는 함수 템플릿 인스턴스화 'void GameObject::Get_ClassName<T>(WCHAR *)'에 대한 참조를 확인하세요.
+          with
+          [
+              T=SpriteRenderer_Component
+          ]
+C:\GSYSTEM\FrameAni_Component.cpp(39): message : 컴파일되는 함수 템플릿 인스턴스화 'T *GameObject::Get_Component<SpriteRenderer_Component>(void)'에 대한 참조를 확인하세요.
+          with
+          [
+              T=SpriteRenderer_Component
+          ]
+C:\GSYSTEM\GameObject.h(126,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GameObject.cpp
+C:\GSYSTEM\GameObject.cpp(83,86): warning C4311: '형식 캐스트': 'HTREEITEM'에서 'int'(으)로 포인터가 잘립니다.
+C:\GSYSTEM\GameObject.cpp(83,86): warning C4302: '형식 캐스트': 'HTREEITEM'에서 'int'(으)로 잘립니다.
+C:\GSYSTEM\GameObject.cpp(617,84): warning C4311: '형식 캐스트': 'HTREEITEM'에서 'int'(으)로 포인터가 잘립니다.
+C:\GSYSTEM\GameObject.cpp(617,84): warning C4302: '형식 캐스트': 'HTREEITEM'에서 'int'(으)로 잘립니다.
+C:\GSYSTEM\BaseComponent.h(51,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\Collision_Component.h(41): message : 컴파일되는 함수 템플릿 인스턴스화 'void BaseComponent::Get_ClassName<Collision_Component>(WCHAR *)'에 대한 참조를 확인하세요.
+C:\GSYSTEM\BaseComponent.h(52,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\GameObject.h(125,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\GameObject.h(193): message : 컴파일되는 함수 템플릿 인스턴스화 'void GameObject::Get_ClassName<T>(WCHAR *)'에 대한 참조를 확인하세요.
+          with
+          [
+              T=GScript
+          ]
+C:\GSYSTEM\GameObject.cpp(166): message : 컴파일되는 함수 템플릿 인스턴스화 'std::list<BaseComponent *,std::allocator<BaseComponent *>> *GameObject::Get_ComponentS<GScript>(void)'에 대한 참조를 확인하세요.
+C:\GSYSTEM\GameObject.h(126,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GameObject_Ext.cpp
+C:\GSYSTEM\BaseComponent.h(51,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\Collision_Component.h(41): message : 컴파일되는 함수 템플릿 인스턴스화 'void BaseComponent::Get_ClassName<Collision_Component>(WCHAR *)'에 대한 참조를 확인하세요.
+C:\GSYSTEM\BaseComponent.h(52,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GBitmap_Font.cpp
+C:\GSYSTEM\GBitmap_Font.cpp(201,25): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\BaseComponent.h(51,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\MeMMap_Component.h(53): message : 컴파일되는 함수 템플릿 인스턴스화 'void BaseComponent::Get_ClassName<MeMMap_Component>(WCHAR *)'에 대한 참조를 확인하세요.
+C:\GSYSTEM\BaseComponent.h(52,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GFILE.cpp
+C:\GSYSTEM\BaseComponent.h(51,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\Collision_Component.h(41): message : 컴파일되는 함수 템플릿 인스턴스화 'void BaseComponent::Get_ClassName<Collision_Component>(WCHAR *)'에 대한 참조를 확인하세요.
+C:\GSYSTEM\BaseComponent.h(52,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GFont.cpp
+C:\GSYSTEM\BaseComponent.h(51,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\Collision_Component.h(41): message : 컴파일되는 함수 템플릿 인스턴스화 'void BaseComponent::Get_ClassName<Collision_Component>(WCHAR *)'에 대한 참조를 확인하세요.
+C:\GSYSTEM\BaseComponent.h(52,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GFunc.cpp
+C:\GSYSTEM\BaseComponent.h(51,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\Collision_Component.h(41): message : 컴파일되는 함수 템플릿 인스턴스화 'void BaseComponent::Get_ClassName<Collision_Component>(WCHAR *)'에 대한 참조를 확인하세요.
+C:\GSYSTEM\BaseComponent.h(52,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GPacket.cpp
+C:\GSYSTEM\BaseComponent.h(51,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\TRS_Component.h(22): message : 컴파일되는 함수 템플릿 인스턴스화 'void BaseComponent::Get_ClassName<TRS_Component>(WCHAR *)'에 대한 참조를 확인하세요.
+C:\GSYSTEM\BaseComponent.h(52,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GParticle.cpp
+C:\GSYSTEM\BaseComponent.h(51,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\Collision_Component.h(41): message : 컴파일되는 함수 템플릿 인스턴스화 'void BaseComponent::Get_ClassName<Collision_Component>(WCHAR *)'에 대한 참조를 확인하세요.
+C:\GSYSTEM\BaseComponent.h(52,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  GParticle_Manager.cpp
+C:\GSYSTEM\BaseComponent.h(51,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\Collision_Component.h(41): message : 컴파일되는 함수 템플릿 인스턴스화 'void BaseComponent::Get_ClassName<Collision_Component>(WCHAR *)'에 대한 참조를 확인하세요.
+C:\GSYSTEM\BaseComponent.h(52,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GParticle_Script.cpp
+C:\GSYSTEM\BaseComponent.h(51,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\TRS_Component.h(22): message : 컴파일되는 함수 템플릿 인스턴스화 'void BaseComponent::Get_ClassName<TRS_Component>(WCHAR *)'에 대한 참조를 확인하세요.
+C:\GSYSTEM\BaseComponent.h(52,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GPiece_Component.cpp
+C:\GSYSTEM\BaseComponent.h(51,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\MeMMap_Component.h(53): message : 컴파일되는 함수 템플릿 인스턴스화 'void BaseComponent::Get_ClassName<MeMMap_Component>(WCHAR *)'에 대한 참조를 확인하세요.
+C:\GSYSTEM\BaseComponent.h(52,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\GameObject.h(125,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\GameObject.h(142): message : 컴파일되는 함수 템플릿 인스턴스화 'void GameObject::Get_ClassName<T>(WCHAR *)'에 대한 참조를 확인하세요.
+          with
+          [
+              T=SpriteRenderer_Component
+          ]
+C:\GSYSTEM\GPiece_Component.cpp(16): message : 컴파일되는 함수 템플릿 인스턴스화 'T *GameObject::Get_Component<SpriteRenderer_Component>(void)'에 대한 참조를 확인하세요.
+          with
+          [
+              T=SpriteRenderer_Component
+          ]
+C:\GSYSTEM\GameObject.h(126,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GResource.cpp
+C:\GSYSTEM\BaseComponent.h(51,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\TRS_Component.h(22): message : 컴파일되는 함수 템플릿 인스턴스화 'void BaseComponent::Get_ClassName<TRS_Component>(WCHAR *)'에 대한 참조를 확인하세요.
+C:\GSYSTEM\BaseComponent.h(52,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GScene.cpp
+C:\GSYSTEM\GScene.cpp(65,85): warning C4311: '형식 캐스트': 'HTREEITEM'에서 'int'(으)로 포인터가 잘립니다.
+C:\GSYSTEM\GScene.cpp(65,85): warning C4302: '형식 캐스트': 'HTREEITEM'에서 'int'(으)로 잘립니다.
+C:\GSYSTEM\GScene.cpp(190,33): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\BaseComponent.h(51,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\Collision_Component.h(41): message : 컴파일되는 함수 템플릿 인스턴스화 'void BaseComponent::Get_ClassName<Collision_Component>(WCHAR *)'에 대한 참조를 확인하세요.
+C:\GSYSTEM\BaseComponent.h(52,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GScene_Camera.cpp
+C:\GSYSTEM\BaseComponent.h(51,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\Collision_Component.h(41): message : 컴파일되는 함수 템플릿 인스턴스화 'void BaseComponent::Get_ClassName<Collision_Component>(WCHAR *)'에 대한 참조를 확인하세요.
+C:\GSYSTEM\BaseComponent.h(52,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GScene_Colision.cpp
+C:\GSYSTEM\BaseComponent.h(51,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\Collision_Component.h(41): message : 컴파일되는 함수 템플릿 인스턴스화 'void BaseComponent::Get_ClassName<Collision_Component>(WCHAR *)'에 대한 참조를 확인하세요.
+C:\GSYSTEM\BaseComponent.h(52,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GScene_Manager.cpp
+C:\GSYSTEM\BaseComponent.h(51,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\Collision_Component.h(41): message : 컴파일되는 함수 템플릿 인스턴스화 'void BaseComponent::Get_ClassName<Collision_Component>(WCHAR *)'에 대한 참조를 확인하세요.
+C:\GSYSTEM\BaseComponent.h(52,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GScript.cpp
+C:\GSYSTEM\BaseComponent.h(51,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\TRS_Component.h(22): message : 컴파일되는 함수 템플릿 인스턴스화 'void BaseComponent::Get_ClassName<TRS_Component>(WCHAR *)'에 대한 참조를 확인하세요.
+C:\GSYSTEM\BaseComponent.h(52,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GSystem.cpp
+C:\GSYSTEM\BaseComponent.h(51,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\Collision_Component.h(41): message : 컴파일되는 함수 템플릿 인스턴스화 'void BaseComponent::Get_ClassName<Collision_Component>(WCHAR *)'에 대한 참조를 확인하세요.
+C:\GSYSTEM\BaseComponent.h(52,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GSystem_Update.cpp
+C:\GSYSTEM\BaseComponent.h(51,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\Collision_Component.h(41): message : 컴파일되는 함수 템플릿 인스턴스화 'void BaseComponent::Get_ClassName<Collision_Component>(WCHAR *)'에 대한 참조를 확인하세요.
+C:\GSYSTEM\BaseComponent.h(52,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GWindow.cpp
+C:\GSYSTEM\GWindow.cpp(117,84): warning C4311: '형식 캐스트': 'HTREEITEM'에서 'int'(으)로 포인터가 잘립니다.
+C:\GSYSTEM\GWindow.cpp(117,84): warning C4302: '형식 캐스트': 'HTREEITEM'에서 'int'(으)로 잘립니다.
+C:\GSYSTEM\GWindow.cpp(143,45): error C2065: 'GWL_HINSTANCE': 선언되지 않은 식별자입니다.
+  GXML.cpp
+C:\GSYSTEM\GXML.cpp(340,33): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\BaseComponent.h(51,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\Collision_Component.h(41): message : 컴파일되는 함수 템플릿 인스턴스화 'void BaseComponent::Get_ClassName<Collision_Component>(WCHAR *)'에 대한 참조를 확인하세요.
+C:\GSYSTEM\BaseComponent.h(52,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  G_Component.cpp
+C:\GSYSTEM\G_Component.cpp(13,75): warning C4311: '형식 캐스트': 'HTREEITEM'에서 'int'(으)로 포인터가 잘립니다.
+C:\GSYSTEM\G_Component.cpp(13,75): warning C4302: '형식 캐스트': 'HTREEITEM'에서 'int'(으)로 잘립니다.
+C:\GSYSTEM\BaseComponent.h(51,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\Collision_Component.h(41): message : 컴파일되는 함수 템플릿 인스턴스화 'void BaseComponent::Get_ClassName<Collision_Component>(WCHAR *)'에 대한 참조를 확인하세요.
+C:\GSYSTEM\BaseComponent.h(52,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Line_Component.cpp
+C:\GSYSTEM\BaseComponent.h(51,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\Line_Component.h(48): message : 컴파일되는 함수 템플릿 인스턴스화 'void BaseComponent::Get_ClassName<Line_Component>(WCHAR *)'에 대한 참조를 확인하세요.
+C:\GSYSTEM\BaseComponent.h(52,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  MattScreen_Component.cpp
+C:\GSYSTEM\BaseComponent.h(51,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\MattScreen_Component.h(23): message : 컴파일되는 함수 템플릿 인스턴스화 'void BaseComponent::Get_ClassName<MattScreen_Component>(WCHAR *)'에 대한 참조를 확인하세요.
+C:\GSYSTEM\BaseComponent.h(52,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  MeMMap_Component.cpp
+C:\GSYSTEM\BaseComponent.h(51,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\MeMMap_Component.h(53): message : 컴파일되는 함수 템플릿 인스턴스화 'void BaseComponent::Get_ClassName<MeMMap_Component>(WCHAR *)'에 대한 참조를 확인하세요.
+C:\GSYSTEM\BaseComponent.h(52,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Music_Component.cpp
+C:\GSYSTEM\BaseComponent.h(51,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\Music_Component.h(49): message : 컴파일되는 함수 템플릿 인스턴스화 'void BaseComponent::Get_ClassName<Music_Component>(WCHAR *)'에 대한 참조를 확인하세요.
+C:\GSYSTEM\BaseComponent.h(52,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Physics_Component.cpp
+C:\GSYSTEM\BaseComponent.h(51,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\Physics_Component.h(17): message : 컴파일되는 함수 템플릿 인스턴스화 'void BaseComponent::Get_ClassName<Physics_Component>(WCHAR *)'에 대한 참조를 확인하세요.
+C:\GSYSTEM\BaseComponent.h(52,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  QCOMP.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  SoundCLIP_Component.cpp
+C:\GSYSTEM\BaseComponent.h(51,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\SoundCLIP_Component.h(26): message : 컴파일되는 함수 템플릿 인스턴스화 'void BaseComponent::Get_ClassName<SoundCLIP_Component>(WCHAR *)'에 대한 참조를 확인하세요.
+C:\GSYSTEM\BaseComponent.h(52,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  SpriteRenderer_Component.cpp
+C:\GSYSTEM\BaseComponent.h(51,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\MeMMap_Component.h(53): message : 컴파일되는 함수 템플릿 인스턴스화 'void BaseComponent::Get_ClassName<MeMMap_Component>(WCHAR *)'에 대한 참조를 확인하세요.
+C:\GSYSTEM\BaseComponent.h(52,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  TRS_Component.cpp
+C:\GSYSTEM\BaseComponent.h(51,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\TRS_Component.h(22): message : 컴파일되는 함수 템플릿 인스턴스화 'void BaseComponent::Get_ClassName<TRS_Component>(WCHAR *)'에 대한 참조를 확인하세요.
+C:\GSYSTEM\BaseComponent.h(52,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  TRS_Core.cpp
+C:\GSYSTEM\BaseComponent.h(51,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\GSYSTEM\Collision_Component.h(41): message : 컴파일되는 함수 템플릿 인스턴스화 'void BaseComponent::Get_ClassName<Collision_Component>(WCHAR *)'에 대한 참조를 확인하세요.
+C:\GSYSTEM\BaseComponent.h(52,1): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  cBg.cpp
+C:\JCODE\MindOver\cBg.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'GScript.h': No such file or directory
+  cStage1_Boss.cpp
+C:\JCODE\MindOver\cStage1_Boss.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'GScript.h': No such file or directory
+  cStage1_Enemy.cpp
+C:\JCODE\MindOver\cStage1_Enemy.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'GScript.h': No such file or directory
+  cGameManager.cpp
+C:\JCODE\MindOver\cGameManager.h(3,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'GScene_Manager.h': No such file or directory
+  cGame_Start_Ui.cpp
+C:\JCODE\MindOver\cGame_Start_Ui.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'GScript.h': No such file or directory
+  cIngame.cpp
+C:\JCODE\MindOver\cIngame.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'GScript.h': No such file or directory
+  cIngameManager.cpp
+C:\JCODE\MindOver\cIngameManager.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'GScript.h': No such file or directory
+  cIngame_Ui.cpp
+C:\JCODE\MindOver\cIngame_Ui.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'GScript.h': No such file or directory
+  cMaskBg.cpp
+C:\JCODE\MindOver\cMaskBg.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'GScript.h': No such file or directory
+  cPlayer.cpp
+C:\JCODE\MindOver\cPlayer.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'GScript.h': No such file or directory
+  cPlayer_Die_Eff.cpp
+C:\JCODE\MindOver\cPlayer_Die_Eff.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'GScript.h': No such file or directory
+  cPlayer_Life.cpp
+C:\JCODE\MindOver\cPlayer_Life.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'GScript.h': No such file or directory
+  cTitle.cpp
+C:\JCODE\MindOver\cTitle.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'GScript.h': No such file or directory
+  cWarning_Back.cpp
+C:\JCODE\MindOver\cWarning_Back.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'GScript.h': No such file or directory
+  DXUTenum.cpp
+  DXUTmisc.cpp
+C:\JCODE\MindOver\DXUT\Core\DXUTmisc.cpp(1263,13): warning C4996: 'GetVersionExA': deprecated로 선언되었습니다.
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  DXUTcamera.cpp
+  DXUTgui.cpp
+C:\JCODE\MindOver\DXUT\Optional\DXUTgui.cpp(6846,37): warning C4458: 'iTexture' 선언은 클래스 멤버를 숨깁니다.
+C:\JCODE\MindOver\DXUT\Optional\DXUTgui.h(109,10): message : 'CDXUTElement::iTexture' 선언을 참조하십시오.
+C:\JCODE\MindOver\DXUT\Optional\DXUTgui.cpp(6860,34): warning C4458: 'iFont' 선언은 클래스 멤버를 숨깁니다.
+C:\JCODE\MindOver\DXUT\Optional\DXUTgui.h(110,10): message : 'CDXUTElement::iFont' 선언을 참조하십시오.
+C:\JCODE\MindOver\DXUT\Optional\DXUTgui.cpp(6860,74): warning C4458: 'dwTextFormat' 선언은 클래스 멤버를 숨깁니다.
+C:\JCODE\MindOver\DXUT\Optional\DXUTgui.h(111,11): message : 'CDXUTElement::dwTextFormat' 선언을 참조하십시오.
+  DXUTres.cpp
+  DXUTsettingsdlg.cpp
+  SDKmesh.cpp
+  SDKmisc.cpp
+C:\JCODE\MindOver\DXUT\Optional\SDKmisc.cpp(144,30): warning C4477: 'swprintf_s' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'LPARAM'입니다.
+C:\JCODE\MindOver\DXUT\Optional\SDKmisc.cpp(144,30): message : 서식 문자열에서 '%lld'을(를) 사용하는 것이 좋습니다.
+C:\JCODE\MindOver\DXUT\Optional\SDKmisc.cpp(144,30): message : 서식 문자열에서 '%Id'을(를) 사용하는 것이 좋습니다.
+C:\JCODE\MindOver\DXUT\Optional\SDKmisc.cpp(144,30): message : 서식 문자열에서 '%I64d'을(를) 사용하는 것이 좋습니다.
+C:\JCODE\MindOver\DXUT\Optional\SDKmisc.cpp(144,30): warning C4477: 'swprintf_s' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'LPARAM'입니다.
+C:\JCODE\MindOver\DXUT\Optional\SDKmisc.cpp(144,30): message : 서식 문자열에서 '%lld'을(를) 사용하는 것이 좋습니다.
+C:\JCODE\MindOver\DXUT\Optional\SDKmisc.cpp(144,30): message : 서식 문자열에서 '%Id'을(를) 사용하는 것이 좋습니다.
+C:\JCODE\MindOver\DXUT\Optional\SDKmisc.cpp(144,30): message : 서식 문자열에서 '%I64d'을(를) 사용하는 것이 좋습니다.
+  SDKsound.cpp
+  SDKwavefile.cpp
+  MindOver.cpp
+C:\JCODE\MindOver\MindOver.cpp(8,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'GSystem.h': No such file or directory
+  코드를 생성하고 있습니다...

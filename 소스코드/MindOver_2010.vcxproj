@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Profile|Win32">
+      <Configuration>Profile</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Profile|x64">
+      <Configuration>Profile</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>MindOver</ProjectName>
+    <ProjectGuid>{D3D09108-96D0-4629-88B8-122C0256058C}</ProjectGuid>
+    <RootNamespace>MindOver</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|X64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|X64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|X64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <GenerateManifest>true</GenerateManifest>
+    <ExecutablePath>$(DXSDK_DIR)Utilities\bin\x86;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>$(DXSDK_DIR)Include;C:\GSYSTEM;E:\MindOver\DXUT\Optional;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|X64'">
+    <LinkIncremental>true</LinkIncremental>
+    <GenerateManifest>true</GenerateManifest>
+    <ExecutablePath>$(DXSDK_DIR)Utilities\bin\x64;$(DXSDK_DIR)Utilities\bin\x86;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>$(DXSDK_DIR)Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)Lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <GenerateManifest>true</GenerateManifest>
+    <ExecutablePath>$(DXSDK_DIR)Utilities\bin\x86;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>$(DXSDK_DIR)Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|X64'">
+    <LinkIncremental>false</LinkIncremental>
+    <GenerateManifest>true</GenerateManifest>
+    <ExecutablePath>$(DXSDK_DIR)Utilities\bin\x64;$(DXSDK_DIR)Utilities\bin\x86;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>$(DXSDK_DIR)Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)Lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <GenerateManifest>true</GenerateManifest>
+    <ExecutablePath>$(DXSDK_DIR)Utilities\bin\x86;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>$(DXSDK_DIR)Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|X64'">
+    <LinkIncremental>false</LinkIncremental>
+    <GenerateManifest>true</GenerateManifest>
+    <ExecutablePath>$(DXSDK_DIR)Utilities\bin\x64;$(DXSDK_DIR)Utilities\bin\x86;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>$(DXSDK_DIR)Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)Lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <OpenMPSupport>false</OpenMPSupport>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <AdditionalIncludeDirectories>DXUT\Core;DXUT\Optional;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions> %(AdditionalOptions)</AdditionalOptions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;DEBUG;PROFILE;_WINDOWS;D3DXFX_LARGEADDRESS_HANDLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>DXUT.h</PrecompiledHeaderFile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions> %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>d3dx10d.lib;d3dx9d.lib;dxerr.lib;dxguid.lib;winmm.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LargeAddressAware>true</LargeAddressAware>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+      <UACExecutionLevel>AsInvoker</UACExecutionLevel>
+      <DelayLoadDLLs>%(DelayLoadDLLs)</DelayLoadDLLs>
+    </Link>
+    <Manifest>
+      <EnableDPIAwareness>true</EnableDPIAwareness>
+    </Manifest>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|X64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <OpenMPSupport>false</OpenMPSupport>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <AdditionalIncludeDirectories>DXUT\Core;DXUT\Optional;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions> %(AdditionalOptions)</AdditionalOptions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;DEBUG;PROFILE;_WINDOWS;D3DXFX_LARGEADDRESS_HANDLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>DXUT.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions> %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>d3dx10d.lib;d3dx9d.lib;dxerr.lib;dxguid.lib;winmm.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LargeAddressAware>true</LargeAddressAware>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <TargetMachine>MachineX64</TargetMachine>
+      <UACExecutionLevel>AsInvoker</UACExecutionLevel>
+      <DelayLoadDLLs>%(DelayLoadDLLs)</DelayLoadDLLs>
+    </Link>
+    <Manifest>
+      <EnableDPIAwareness>true</EnableDPIAwareness>
+    </Manifest>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <OpenMPSupport>false</OpenMPSupport>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <AdditionalIncludeDirectories>DXUT\Core;DXUT\Optional;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions> %(AdditionalOptions)</AdditionalOptions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;D3DXFX_LARGEADDRESS_HANDLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>DXUT.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions> %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>d3dx10.lib;d3dx9.lib;dxerr.lib;dxguid.lib;winmm.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <LargeAddressAware>true</LargeAddressAware>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+      <UACExecutionLevel>AsInvoker</UACExecutionLevel>
+      <DelayLoadDLLs>%(DelayLoadDLLs)</DelayLoadDLLs>
+    </Link>
+    <Manifest>
+      <EnableDPIAwareness>true</EnableDPIAwareness>
+    </Manifest>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|X64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <OpenMPSupport>false</OpenMPSupport>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <AdditionalIncludeDirectories>DXUT\Core;DXUT\Optional;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions> %(AdditionalOptions)</AdditionalOptions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;D3DXFX_LARGEADDRESS_HANDLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>DXUT.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions> %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>d3dx10.lib;d3dx9.lib;dxerr.lib;dxguid.lib;winmm.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <LargeAddressAware>true</LargeAddressAware>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <TargetMachine>MachineX64</TargetMachine>
+      <UACExecutionLevel>AsInvoker</UACExecutionLevel>
+      <DelayLoadDLLs>%(DelayLoadDLLs)</DelayLoadDLLs>
+    </Link>
+    <Manifest>
+      <EnableDPIAwareness>true</EnableDPIAwareness>
+    </Manifest>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <OpenMPSupport>false</OpenMPSupport>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <AdditionalIncludeDirectories>DXUT\Core;DXUT\Optional;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions> %(AdditionalOptions)</AdditionalOptions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;PROFILE;_WINDOWS;D3DXFX_LARGEADDRESS_HANDLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>DXUT.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions> %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>d3dx10.lib;d3dx9.lib;dxerr.lib;dxguid.lib;winmm.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <LargeAddressAware>true</LargeAddressAware>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+      <UACExecutionLevel>AsInvoker</UACExecutionLevel>
+      <DelayLoadDLLs>%(DelayLoadDLLs)</DelayLoadDLLs>
+    </Link>
+    <Manifest>
+      <EnableDPIAwareness>true</EnableDPIAwareness>
+    </Manifest>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Profile|X64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <OpenMPSupport>false</OpenMPSupport>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <AdditionalIncludeDirectories>DXUT\Core;DXUT\Optional;%(AdditionalIncludeDirectories)
+      </AdditionalIncludeDirectories>
+      <AdditionalOptions> %(AdditionalOptions)</AdditionalOptions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;PROFILE;_WINDOWS;D3DXFX_LARGEADDRESS_HANDLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>DXUT.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions> %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>d3dx10.lib;d3dx9.lib;dxerr.lib;dxguid.lib;winmm.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <LargeAddressAware>true</LargeAddressAware>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <TargetMachine>MachineX64</TargetMachine>
+      <UACExecutionLevel>AsInvoker</UACExecutionLevel>
+      <DelayLoadDLLs>%(DelayLoadDLLs)</DelayLoadDLLs>
+    </Link>
+    <Manifest>
+      <EnableDPIAwareness>true</EnableDPIAwareness>
+    </Manifest>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="cBoss12_Die_Eff.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="cBoss3_Die_Eff.cpp" />
+    <ClCompile Include="cEnemy_Die_Eff.cpp" />
+    <ClCompile Include="cEnemy_Gas.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="cEnemy_Rocket.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="cGameClear.cpp" />
+    <ClCompile Include="cGameClear_info.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="cGameOver_Ui.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="cEnemy_BaseBullet.cpp" />
+    <ClCompile Include="cHp_Item.cpp" />
+    <ClCompile Include="cPlayer_Heal_Eff.cpp" />
+    <ClCompile Include="cSpeedUp_Item.cpp" />
+    <ClCompile Include="cStage1_Enemy_Dog.cpp" />
+    <ClCompile Include="cStage2_Boss.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="cStage2_Enemy_Poison.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="cStage3_Boss.cpp" />
+    <ClCompile Include="Score_Number.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Warning_Text.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClInclude Include="cBoss12_Die_Eff.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="cBoss3_Die_Eff.h" />
+    <ClInclude Include="cEnemy_Die_Eff.h" />
+    <ClInclude Include="cEnemy_Gas.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="cEnemy_Rocket.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="cGameClear.h" />
+    <ClInclude Include="cGameClear_info.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="cGameOver_Ui.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="cEnemy_BaseBullet.h" />
+    <ClInclude Include="cHp_Item.h" />
+    <ClInclude Include="cPlayer_Heal_Eff.h" />
+    <ClInclude Include="cSpeedUp_Item.h" />
+    <ClInclude Include="cStage1_Enemy_Dog.h" />
+    <ClInclude Include="cStage2_Boss.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="cStage2_Enemy_Poison.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="cStage3_Boss.h" />
+    <ClInclude Include="Score_Number.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Warning_Text.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <None Include="DXUT\Optional\directx.ico" />
+    <ClInclude Include="..\..\GSYSTEM\BaseComponent.h" />
+    <ClInclude Include="..\..\GSYSTEM\Box_Component.h" />
+    <ClInclude Include="..\..\GSYSTEM\Circle_Component.h" />
+    <ClInclude Include="..\..\GSYSTEM\Collision_Component.h" />
+    <ClInclude Include="..\..\GSYSTEM\Color_Component.h" />
+    <ClInclude Include="..\..\GSYSTEM\FrameAni_Component.h" />
+    <ClInclude Include="..\..\GSYSTEM\GameObject.h" />
+    <ClInclude Include="..\..\GSYSTEM\GBitmap_Font.h" />
+    <ClInclude Include="..\..\GSYSTEM\GFILE.h" />
+    <ClInclude Include="..\..\GSYSTEM\GFont.h" />
+    <ClInclude Include="..\..\GSYSTEM\GFunc.h" />
+    <ClInclude Include="..\..\GSYSTEM\GPacket.h" />
+    <ClInclude Include="..\..\GSYSTEM\GParticle.h" />
+    <ClInclude Include="..\..\GSYSTEM\GParticle_Manager.h" />
+    <ClInclude Include="..\..\GSYSTEM\GParticle_Script.h" />
+    <ClInclude Include="..\..\GSYSTEM\GPiece_Component.h" />
+    <ClInclude Include="..\..\GSYSTEM\GResource.h" />
+    <ClInclude Include="..\..\GSYSTEM\GScene.h" />
+    <ClInclude Include="..\..\GSYSTEM\GScene_Manager.h" />
+    <ClInclude Include="..\..\GSYSTEM\GScript.h" />
+    <ClInclude Include="..\..\GSYSTEM\GSystem.h" />
+    <ClInclude Include="..\..\GSYSTEM\GSystem_Define.h" />
+    <ClInclude Include="..\..\GSYSTEM\GWindow.h" />
+    <ClInclude Include="..\..\GSYSTEM\GXML.h" />
+    <ClInclude Include="..\..\GSYSTEM\G_Component.h" />
+    <ClInclude Include="..\..\GSYSTEM\Line_Component.h" />
+    <ClInclude Include="..\..\GSYSTEM\MattScreen_Component.h" />
+    <ClInclude Include="..\..\GSYSTEM\MeMMap_Component.h" />
+    <ClInclude Include="..\..\GSYSTEM\Music_Component.h" />
+    <ClInclude Include="..\..\GSYSTEM\Physics_Component.h" />
+    <ClInclude Include="..\..\GSYSTEM\QCOMP.h" />
+    <ClInclude Include="..\..\GSYSTEM\SoundCLIP_Component.h" />
+    <ClInclude Include="..\..\GSYSTEM\SpriteRenderer_Component.h" />
+    <ClInclude Include="..\..\GSYSTEM\TRS_Component.h" />
+    <ClInclude Include="..\..\GSYSTEM\TRS_Core.h" />
+    <ClInclude Include="cBg.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="cStage1_Boss.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="cStage1_Enemy.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="cGameManager.h" />
+    <ClInclude Include="cGame_Start_Ui.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="cIngame.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="cIngameManager.h" />
+    <ClInclude Include="cIngame_Ui.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="cMaskBg.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="cPlayer.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="cPlayer_Die_Eff.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="cPlayer_Life.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="cTitle.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="cWarning_Back.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="define.h" />
+    <ClInclude Include="DXUT\Core\DXUT.h" />
+    <ClInclude Include="DXUT\Core\DXUTenum.h" />
+    <ClInclude Include="DXUT\Core\DXUTmisc.h" />
+    <ClCompile Include="..\..\GSYSTEM\BaseComponent.cpp" />
+    <ClCompile Include="..\..\GSYSTEM\Box_Component.cpp" />
+    <ClCompile Include="..\..\GSYSTEM\Circle_Component.cpp" />
+    <ClCompile Include="..\..\GSYSTEM\Collision_Component.cpp" />
+    <ClCompile Include="..\..\GSYSTEM\Color_Component.cpp" />
+    <ClCompile Include="..\..\GSYSTEM\FrameAni_Component.cpp" />
+    <ClCompile Include="..\..\GSYSTEM\GameObject.cpp" />
+    <ClCompile Include="..\..\GSYSTEM\GameObject_Ext.cpp" />
+    <ClCompile Include="..\..\GSYSTEM\GBitmap_Font.cpp" />
+    <ClCompile Include="..\..\GSYSTEM\GFILE.cpp" />
+    <ClCompile Include="..\..\GSYSTEM\GFont.cpp" />
+    <ClCompile Include="..\..\GSYSTEM\GFunc.cpp" />
+    <ClCompile Include="..\..\GSYSTEM\GPacket.cpp" />
+    <ClCompile Include="..\..\GSYSTEM\GParticle.cpp" />
+    <ClCompile Include="..\..\GSYSTEM\GParticle_Manager.cpp" />
+    <ClCompile Include="..\..\GSYSTEM\GParticle_Script.cpp" />
+    <ClCompile Include="..\..\GSYSTEM\GPiece_Component.cpp" />
+    <ClCompile Include="..\..\GSYSTEM\GResource.cpp" />
+    <ClCompile Include="..\..\GSYSTEM\GScene.cpp" />
+    <ClCompile Include="..\..\GSYSTEM\GScene_Camera.cpp" />
+    <ClCompile Include="..\..\GSYSTEM\GScene_Colision.cpp" />
+    <ClCompile Include="..\..\GSYSTEM\GScene_Manager.cpp" />
+    <ClCompile Include="..\..\GSYSTEM\GScript.cpp" />
+    <ClCompile Include="..\..\GSYSTEM\GSystem.cpp" />
+    <ClCompile Include="..\..\GSYSTEM\GSystem_Update.cpp" />
+    <ClCompile Include="..\..\GSYSTEM\GWindow.cpp" />
+    <ClCompile Include="..\..\GSYSTEM\GXML.cpp" />
+    <ClCompile Include="..\..\GSYSTEM\G_Component.cpp" />
+    <ClCompile Include="..\..\GSYSTEM\Line_Component.cpp" />
+    <ClCompile Include="..\..\GSYSTEM\MattScreen_Component.cpp" />
+    <ClCompile Include="..\..\GSYSTEM\MeMMap_Component.cpp" />
+    <ClCompile Include="..\..\GSYSTEM\Music_Component.cpp" />
+    <ClCompile Include="..\..\GSYSTEM\Physics_Component.cpp" />
+    <ClCompile Include="..\..\GSYSTEM\QCOMP.cpp" />
+    <ClCompile Include="..\..\GSYSTEM\SoundCLIP_Component.cpp" />
+    <ClCompile Include="..\..\GSYSTEM\SpriteRenderer_Component.cpp" />
+    <ClCompile Include="..\..\GSYSTEM\TRS_Component.cpp" />
+    <ClCompile Include="..\..\GSYSTEM\TRS_Core.cpp" />
+    <ClCompile Include="cBg.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="cStage1_Boss.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="cStage1_Enemy.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="cGameManager.cpp" />
+    <ClCompile Include="cGame_Start_Ui.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="cIngame.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="cIngameManager.cpp" />
+    <ClCompile Include="cIngame_Ui.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="cMaskBg.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="cPlayer.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="cPlayer_Die_Eff.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="cPlayer_Life.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="cTitle.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="cWarning_Back.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <PrecompiledHeader>Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTenum.cpp" />
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp" />
+    <ClInclude Include="DXUT\Optional\DXUTcamera.h" />
+    <ClInclude Include="DXUT\Optional\DXUTgui.h" />
+    <ClInclude Include="DXUT\Optional\DXUTres.h" />
+    <ClInclude Include="DXUT\Optional\DXUTsettingsdlg.h" />
+    <ClInclude Include="DXUT\Optional\SDKmesh.h" />
+    <ClInclude Include="DXUT\Optional\SDKmisc.h" />
+    <ClCompile Include="DXUT\Optional\DXUTcamera.cpp" />
+    <ClCompile Include="DXUT\Optional\DXUTgui.cpp" />
+    <ClCompile Include="DXUT\Optional\DXUTres.cpp" />
+    <ClCompile Include="DXUT\Optional\DXUTsettingsdlg.cpp" />
+    <ClCompile Include="DXUT\Optional\SDKmesh.cpp" />
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DXUT\Optional\SDKsound.cpp" />
+    <ClCompile Include="DXUT\Optional\SDKwavefile.cpp" />
+    <ClCompile Include="MindOver.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h" />
+    <ResourceCompile Include="MindOver.rc" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>
